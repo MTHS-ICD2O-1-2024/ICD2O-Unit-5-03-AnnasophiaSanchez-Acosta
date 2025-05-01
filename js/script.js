@@ -7,8 +7,9 @@
 "use strict"
 
 /**
- * This function checks users age 
+ * This function checks users age and the type of movie they can watch
  */
+// eslint-disable-next-line no-unused-vars
 
 
 function checkAge() {
@@ -31,6 +32,6 @@ function checkAge() {
   } else {
     //output
     document.getElementById("result").innerHTML =
-      "You are to young for most movies"
+      "You are too young for most movies"
   }
 }
