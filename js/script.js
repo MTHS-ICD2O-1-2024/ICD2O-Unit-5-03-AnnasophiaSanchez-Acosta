@@ -20,16 +20,16 @@ function checkAge() {
     //output
     document.getElementById("result").innerHTML =
       "You can watch R rated movies alone"
-      //output
   } else if (userAge >= 13) {
+    //output
     document.getElementById("result").innerHTML =
       "You can watch PG-13 movies alone"
-      //output
   } else if (userAge >= 5) {
+    //output
     document.getElementById("result").innerHTML =
       "You can watch  g or pg movies alone"
-      //output
   } else {
+    //output
     document.getElementById("result").innerHTML =
       "You are to young for most movies"
   }
