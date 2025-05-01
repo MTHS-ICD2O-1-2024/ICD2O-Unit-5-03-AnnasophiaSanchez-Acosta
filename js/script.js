@@ -11,26 +11,25 @@
  */
 // eslint-disable-next-line no-unused-vars
 
-
-function checkAge() {
+function checkAge (){
   // input
   const userAge = document.getElementById("user-age").checked
 
   // process
   if (userAge >= 17) {
-    //output
+    // output
     document.getElementById("result").innerHTML =
       "You can watch R rated movies alone"
   } else if (userAge >= 13) {
-    //output
+    // output
     document.getElementById("result").innerHTML =
       "You can watch PG-13 movies alone"
   } else if (userAge >= 5) {
-    //output
+    // output
     document.getElementById("result").innerHTML =
       "You can watch  g or pg movies alone"
   } else {
-    //output
+    // output
     document.getElementById("result").innerHTML =
       "You are too young for most movies"
   }
