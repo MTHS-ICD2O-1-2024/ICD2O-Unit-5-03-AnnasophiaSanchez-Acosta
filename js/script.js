@@ -13,7 +13,7 @@
 
 function checkAge (){
   // input
-  const userAge = document.getElementById("user-age").checked
+  const userAge = document.getElementById("user-age").value
 
   // process
   if (userAge >= 17) {
